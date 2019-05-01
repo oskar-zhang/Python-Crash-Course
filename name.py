@@ -15,3 +15,9 @@ print("Hello, " + full_name + "!")
 message = "Hello, " + full_name.title() + "!"
 
 print(message)
+
+print("\t" + message)
+
+print("Languages:\nPython\nC++\nJavascript")
+
+print("Languages:\nPython\n\tC++\nJavascript")
