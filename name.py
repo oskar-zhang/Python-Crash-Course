@@ -21,3 +21,10 @@ print("\t" + message)
 print("Languages:\nPython\nC++\nJavascript")
 
 print("Languages:\nPython\n\tC++\nJavascript")
+
+favorite_language = ' python '
+
+print(favorite_language)
+print(favorite_language.rstrip())
+print(favorite_language.lstrip())
+print(favorite_language.strip())
