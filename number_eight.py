@@ -13,5 +13,4 @@ print(11-3)
 print(1*8)
 
 num = 72/9
-
 print(int(num))
