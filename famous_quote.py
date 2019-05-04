@@ -7,8 +7,4 @@ mistake never tried anything new.”
 
 """
 
-name = "Albert Einstein"
-
-quote = "A person who never made a mistake never tried anything new."
-
-print(name + " once said, " + '"' + quote + '"')
+print("Albert Einstein once said, “A person who never made amistake never tried anything new.”")
