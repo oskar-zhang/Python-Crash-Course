@@ -18,3 +18,8 @@ print(sorted(cars, reverse=True))
 
 print("\nHere is the origianl list:")
 print(cars)
+
+cars.reverse()
+print(cars)
+
+print(len(cars))
