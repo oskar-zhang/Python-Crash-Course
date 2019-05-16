@@ -4,6 +4,6 @@ use a for loop to print the numbers. (If the output is taking too long, stop it 
 pressing ctrl-C or by closing the output window.)
 """
 
-onemillion = [number for number in range(1,1000000)]
+onemillion = [number for number in range(1,1000001)]
 
 print(onemillion)
