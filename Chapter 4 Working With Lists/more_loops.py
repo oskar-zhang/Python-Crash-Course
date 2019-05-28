@@ -15,7 +15,6 @@ print("My favorite foods are:")
 for my_food in my_foods[:]:
     print(my_food.title())
 
-
 print("\nMy friend's favorite foods are:")
 for friend_food in friend_foods[:]:
     print(friend_food.title())
