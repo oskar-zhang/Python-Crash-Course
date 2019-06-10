@@ -37,3 +37,7 @@ print("\nThe following languages have been mentioned: ")
 
 for language in favorite_languages.values():
     print(language.title())
+
+#Remove repeated values
+for language in set(favorite_languages.values()):
+    print(language.title())
