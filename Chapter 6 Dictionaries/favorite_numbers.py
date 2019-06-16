@@ -17,3 +17,20 @@ print("Elton's favorite number is " + str(fav_nums['Elton']))
 print("Oskar's favorite number is " + str(fav_nums['Oskar']))
 
 print("Port's favorite number is " + str(fav_nums['Port']))
+
+"""
+6-10. Favorite Numbers: Modify your program from Exercise 6-2 (page 102) so
+each person can have more than one favorite number. Then print each person’s
+name along with their favorite numbers.
+"""
+
+fav_nums ={'Greg': [13, 14], 
+        'Lane': [10, 11], 
+        'Elton': [7, 8], 
+        'Oskar': [3, 4], 
+        'Port': [4, 5]}
+
+for name, numbers in fav_nums.items():
+    print("\n" + name + "'s favorite number are " )
+    for number in numbers:
+        print("\t"+ str(number))
