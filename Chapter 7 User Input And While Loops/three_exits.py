@@ -7,6 +7,7 @@ that do each of the following at least once:
 """
 
 #Use a conditional test in the while statement to stop the loop.
+"""
 message = input("How old are you? ")
 
 while message != 'quit':
@@ -20,6 +21,7 @@ while message != 'quit':
     else:
         print("You need to pay $15 for this ticket.")
         message = input("How old are you? (Please type 'quit' if you are done.)")
+"""
 #Use an active variable to control how long the loop runs.
 """
 question = "How old are you? "
@@ -40,3 +42,19 @@ while active:
         active = False
 """
 #Use a break statement to exit the loop when the user enters a 'quit' value.
+
+question = "How old are you?"
+question += "\n(Enter 'quit' when you are finished.) "
+
+while True:
+    age = input(question)
+    if age == 'quit':
+        break
+    else:
+        age = int(age)
+        if age < 3:
+            print("FREE!")
+        elif age <= 12:
+            print("Your ticket cost $10.")
+        else:
+            print("You need to pay $15 for this ticket.")
