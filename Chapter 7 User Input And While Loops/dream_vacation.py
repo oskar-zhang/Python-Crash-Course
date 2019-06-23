@@ -10,7 +10,8 @@ polling_active = True
 
 while polling_active:
     name = input("\nWhat's your name? ")
-    response = input("\nIf you could visit one place in the world, where would you go?")
+    response = input('''\nIf you could visit one place in the world, 
+                                     where would you go? ''')
     
     dream_vacation[name] = response
 
