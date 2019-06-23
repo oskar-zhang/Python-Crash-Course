@@ -16,3 +16,5 @@ while sandwich_orders:
 
     print("Your " + finished_sandwiche + " has been made.")
     finished_sandwiches.append(finished_sandwiche)
+
+#pop(0) will remove items from the left.
