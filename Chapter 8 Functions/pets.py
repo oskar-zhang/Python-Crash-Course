@@ -4,3 +4,5 @@ def describe_pet(animal_type, pet_name):
     print("My " + animal_type + "'s name is " + pet_name.title() + ".")
 
 describe_pet('hamster', 'harry')
+#Multiple Function Calls
+describe_pet('dog', 'willie')
