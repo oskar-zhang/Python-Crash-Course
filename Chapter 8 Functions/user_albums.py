@@ -17,6 +17,6 @@ while True:
     number = input("\nPlease enter the track number: ")
     new_album = make_album(name, title, number)
     print(new_album)
-    check = input("\nEnter 'q' if you want to quit.")
+    check = input("\nEnter 'q' if you want to quit. ")
     if check == 'q':
         break
