@@ -38,8 +38,14 @@ def show_completed_models(completed_models):
 unprinted_designs = ['iphone case', 'robot pendant', 'dodecahedron']
 completed_models = []
 
-print_models(unprinted_designs, completed_models)
+#print_models(unprinted_designs, completed_models)
+
+#Send a copy list to the function
+print_models(unprinted_designs[:], completed_models)
 show_completed_models(completed_models)
+
+print(unprinted_designs)
+print(completed_models)
 
 """
 This example also demonstrates the idea that every function should
