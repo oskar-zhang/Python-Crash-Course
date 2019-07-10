@@ -23,9 +23,15 @@ mp(12, 'mushrooms', 'green peppers', 'extra cheese')
 """
 
 #Using as to Give a Module an Alias
-
+"""
 import pizza as p
 
 p.make_pizza(12, 'mushrooms', 'green peppers', 'extra cheese')
 p.make_pizza1('pepperoni')
+"""
 
+#Importing All Functions in a Module
+
+from pizza import *
+make_pizza1('pepperoni')
+make_pizza(12, 'mushrooms', 'green peppers', 'extra cheese')
