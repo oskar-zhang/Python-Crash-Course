@@ -6,9 +6,42 @@ Call your function for three different cities, at least one of which is not in t
 default country.
 """
 
+def describe_city(city, country='USA'):
+
+    print(city.title() + " is in " + country)
+
+describe_city('san diego, california')
+
+describe_city('los angeles')
+
+describe_city('shenyang', 'China')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
 def describe_city(name, country = 'China'):
     print(name + " is in " + country + ".")
 
 describe_city('Shenyang')
 describe_city('Shanghai')
 describe_city('San Diego', country = 'USA')
+"""
