@@ -6,8 +6,40 @@ a sentence summarizing the size of the shirt and the message printed on it.
 function a second time using keyword arguments.
 """
 
+def make_shirt(size, text):
+    print("Your T-shirt size is " + size + ", and message says " 
+            + text +".")
+
+make_shirt('XXL', 'LOTS OF LOVE!')
+
+make_shirt(text='Hey, you!', size='M')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
 def make_shirt(size, message):
     print("Your T-shirt size is " + size)
     print("The message on your T-shirt is " + message)
 
 make_shirt('XXXL', 'Lots of LOVE')
+"""
