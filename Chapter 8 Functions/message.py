@@ -4,7 +4,40 @@ telling everyone what you are learning about in this chapter. Call the
 function, and make sure the message displays correctly.
 """
 
+
+def display_message():
+    print("I am learning functions in this chapter.")
+
+display_message()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
 def display_message():
     print("I am learning functions.")
 
 display_message()
+"""
