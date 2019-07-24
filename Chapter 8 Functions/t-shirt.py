@@ -11,9 +11,15 @@ def make_shirt(size, text):
             + text +".")
 
 make_shirt('XXL', 'LOTS OF LOVE!')
-
 make_shirt(text='Hey, you!', size='M')
 
+
+def large_shirt(message, size='Large'):
+    print("Your T-shirt size is " + size + ", and message says " 
+            + message +".")
+
+large_shirt('I love Python')
+large_shirt('I love Python', 'Small')
 
 
 
