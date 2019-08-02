@@ -8,6 +8,46 @@ names and one list with the Great added to each magician’s name.
 
 magicians = ['David Copperfield', 'Criss Angel', 'Penn & Teller', 'Mat Franco']
 
+
+great_magicians = []
+
+def make_great(magicians):
+        while magicians:
+                make_great_magician = "the Great " + magicians.pop()
+                great_magicians.append(make_great_magician)
+
+def show_magicians(names):
+        for name in names:
+                print(name)
+
+make_great(magicians[:])
+
+
+show_magicians(great_magicians)
+show_magicians(magicians)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
 great_magicians = []
 
 def make_great(magicians):
@@ -22,3 +62,4 @@ def show_magicians(great_magicians):
 make_great(magicians)
 
 show_magicians(great_magicians[:])
+"""
