@@ -5,7 +5,39 @@ items as the function call provides, and it should print a summary of the sandwi
 that is being ordered. Call the function three times, using a different number
 of arguments each time.
 """
+def make_sandwich(bread, *addings):
+        print("You ordered a sandwich with " + bread.title() + " bread with ")
+        for adding in addings:
+                print("- " + adding.title())
 
+make_sandwich('white', 'turkey', 'swiss cheese', 'tomato')
+make_sandwich('wheat', 'tuna')
+make_sandwich('white', 'B', 'l', 't')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
 def make_sandwich(size, *meat_and_veggies):
     print("\nOne " + size + " sandwich has been ordered. It should have: ")
     for meat_and_veggie in meat_and_veggies:
@@ -16,3 +48,4 @@ make_sandwich('large', 'turkey', 'onion', 'mushroom')
 make_sandwich('small', 'viggies')
 
 make_sandwich('medium', 'mushrooms', 'green peppers', 'extra cheese')
+"""
