@@ -18,11 +18,11 @@ def make_car(manufacturer, model, **other_info):
     car_info['Model'] = model.title()
     for key, value in other_info.items():
         if type(value) == bool:
-            car_info[key] = value
+            car_info[key.title()] = value
         else:
-            car_info[key] = value.title()
+            car_info[key.title()] = value.title()
     return car_info
 
-car = make_car('subaru', 'outback', Color='blue', Tow_package=True)
+car = make_car('subaru', 'outback', color='blue', tow_package=True)
 
 print(car)
