@@ -18,11 +18,9 @@ for complete_model in completed_models:
     print(complete_model.title())
 
 #Reorganize the code above by writing two functions
+"""
 def print_models(unprinted_designs, completed_models):
-    """
-    Simulate printing each design, until none are left.
-    Move each design to completed_models after printing.
-    """
+
     while unprinted_designs:
         current_design = unprinted_designs.pop()
 
@@ -34,6 +32,10 @@ def show_completed_models(completed_models):
     print("\nThe following models have been printed: ")
     for completed_model in completed_models:
         print(completed_model.title())
+"""
+
+from printing_functions import print_models
+from printing_functions import show_completed_models
 
 unprinted_designs = ['iphone case', 'robot pendant', 'dodecahedron']
 completed_models = []
