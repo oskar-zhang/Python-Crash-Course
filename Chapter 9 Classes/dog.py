@@ -17,6 +17,8 @@ my_dog = Dog('willie', 6)
 
 your_dog = Dog('lucy', 3)
 
+his_dog = Dog('Port', 12)
+
 print("My dog's name is " + my_dog.name.title() + ".")
 print("My dog is " + str(my_dog.age) + " years old.")
 
@@ -25,3 +27,7 @@ my_dog.sit()
 print("\nYour dog's name is " + your_dog.name.title() + ".")
 print("Your dog is " + str(your_dog.age) + " years old.")
 your_dog.sit()
+
+print("\nHis dog's name is " + his_dog.name.title() + ".")
+print("His dog is " + str(his_dog.age) + " years old.")
+his_dog.roll_over()
